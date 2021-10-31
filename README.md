@@ -33,7 +33,7 @@ height:20px
 
 #### TODO：
 
-- [ ] 语法高亮
+- [x] 语法高亮（[PrismJS](https://prismjs.com/)）
 - [ ] 更容易地定义演示内容
 
 #### 演示地址：
