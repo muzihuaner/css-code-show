@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
 	<title>欢哥的代码CSS演示工具</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/themes/prism-solarizedlight.css">
 
 	<style>
 		* {
@@ -26,9 +27,13 @@
 			left: 0;
 			border: 1px solid #000000;
 		}
+		.language-css{
+			height: 50vh;
+			width: 100%;
+		}
 		.demo2::-webkit-scrollbar {
 			display: none;
-		}	
+		}
 		.skin{
 			position: fixed;
 			bottom: 0;
@@ -53,32 +58,36 @@
 
 
 <div class="demo1"><style class="demo1style"></style></div>
-	<div class="demo2"></div>
-	<div class="btns">
-		<button class="play">播放</button>
-		<button class="pause">暂停</button>
-		<button class="replay">再来一次</button>
-		<button class="slow">慢速</button>
-		<button class="middle">中速</button>
-		<button class="fast">快速</button>
-	</div>
-	<div class="skin">
-<!--要演示的代码放在下面-->
-		<div class="warpper">
-			<div class="nose"></div>
-			<div class="eye left"></div>
-			<div class="eye right"></div>
-			<div class="face left"></div>
-			<div class="face right"></div>
-			<div class="upperLip left"></div>
-			<div class="upperLip right"></div>
-			<div class="lowerLip-wrapper">
-				<div class="lowerLip"></div>
-			</div>
-
+<pre>
+    <code class="language-css"><span class="demo2"></span></code>
+</pre>
+<div class="btns">
+	<button class="play">播放</button>
+	<button class="pause">暂停</button>
+	<button class="replay">再来一次</button>
+	<button class="slow">慢速</button>
+	<button class="middle">中速</button>
+	<button class="fast">快速</button>
+</div>
+<div class="skin">
+	<!--要演示的代码放在下面-->
+	<div class="warpper">
+		<div class="nose"></div>
+		<div class="eye left"></div>
+		<div class="eye right"></div>
+		<div class="face left"></div>
+		<div class="face right"></div>
+		<div class="upperLip left"></div>
+		<div class="upperLip right"></div>
+		<div class="lowerLip-wrapper">
+			<div class="lowerLip"></div>
 		</div>
 
 	</div>
-	<script src="./main.js"></script>
+
+</div>
+<script src="./main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js"></script>
+
 </body>
 </html>

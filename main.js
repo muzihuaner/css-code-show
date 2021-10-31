@@ -1,6 +1,12 @@
 //里面放置CSS代码
-const string = `.demo{
-width:20px;height:20px
+const string = `.demo{width:200px;
+height:200px;
+background:#000000;
+}
+.demo p{
+font-size: 50px;
+color: white;
+text-align: center;
 }`
 const player = {
     id: undefined,
